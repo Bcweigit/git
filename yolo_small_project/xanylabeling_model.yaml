@@ -1,0 +1,12 @@
+type: yolo26
+name: custom_yolo26_orange
+display_name: My YOLO26 Model
+provider: Ultralytics
+model_path: runs/detect/train_v2/weights/best.onnx
+conf_threshold: 0.25
+iou_threshold: 0.45
+max_det: 300
+input_width: 640
+input_height: 640
+classes:
+  - drill

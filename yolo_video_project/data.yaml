@@ -1,0 +1,6 @@
+path: /home/bcw/Documents/Codex/2026-10-23/new-chat/yolo_video_project/dataset/seg_source
+train: images/train
+val: images/val
+names:
+  0: red metal bracket
+  1: blue bracket

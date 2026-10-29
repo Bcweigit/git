@@ -1,0 +1,13 @@
+type: yolo26_seg
+name: parts_yolo26_seg_red_blue
+display_name: 零部件 YOLO26 分割（red metal bracket / blue bracket）
+provider: Ultralytics
+model_path: /home/bcw/Documents/Codex/2026-10-23/new-chat/yolo_video_project/runs/segment/segment_20261027_205536_165577/weights/best.onnx
+conf_threshold: 0.25
+iou_threshold: 0.45
+max_det: 300
+input_width: 640
+input_height: 640
+classes:
+  - red metal bracket
+  - blue bracket

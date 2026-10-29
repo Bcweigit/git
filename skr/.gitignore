@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+datasets/
+videos/
+outputs/
+runs/
+*.pt
+*.onnx
+.pytest_cache/

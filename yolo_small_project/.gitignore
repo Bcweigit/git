@@ -1,0 +1,8 @@
+dataset/
+images/all/*
+images/manual50/*
+images/unlabeled/*
+runs/
+prelabels/
+*.pt
+__pycache__/

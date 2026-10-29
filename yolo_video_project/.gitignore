@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+dataset/
+input/
+output/
+runs/
+logs/
+configs/
+models/*.pt
+models/latest_model.txt

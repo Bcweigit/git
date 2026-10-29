@@ -1,0 +1,8 @@
+# Paths are relative to this YAML file.
+path: ./datasets/custom
+train: images/train
+val: images/val
+# Replace these examples with your classes, in class_id order.
+names:
+  0: item_a
+  1: item_b

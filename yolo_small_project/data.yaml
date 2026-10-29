@@ -1,0 +1,8 @@
+path: ./dataset
+train: images/train
+val: images/val
+
+# Keep this order identical to classes.txt and the class IDs exported by X-AnyLabeling.
+names:
+  0: drill
+

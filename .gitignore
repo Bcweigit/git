@@ -1,0 +1,56 @@
+# Local environments and tool metadata
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local caches, installers, and logs
+work/
+*.log
+*.deb
+*.whl
+*.cached
+*.cachedv2
+
+# Datasets, generated runs, and inference output
+**/dataset/
+**/datasets/
+**/images/
+**/runs/
+**/output/
+**/outputs/
+**/logs/
+**/input/
+**/prelabels/
+
+# Model weights and exported artifacts
+*.pt
+*.onnx
+*.engine
+*.pth
+*.safetensors
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
